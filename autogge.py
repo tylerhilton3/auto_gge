@@ -10,14 +10,14 @@ location1      = [location1, location1]
 location2      = (1291, 714)
 location2      = [location2, location2]
 skip_bounds    = [(1025, 666), (1063, 682)]
-sell1_bounds   = [(1180, 709), (1201, 729)]
-sell2_bounds   = [(1278, 809), (1301, 832)]
+sell1_bounds   = [(1185, 714), (1196, 724)]
+sell2_bounds   = [(1283, 814), (1296, 827)]
 confirm_bounds = [(1086, 754), (1188, 772)]
 
 
 
 def wait(sell):
-    t.sleep(r.random()*0.1+1+0.5*sell)
+    t.sleep(r.random()*0.1+1.5+1*sell)
 
 def clik(coords, sell=False):
     wait(sell)
